@@ -12,21 +12,21 @@
 
 ## Tentang Repository
 
-Repositori ini disiapkan sebagai wadah portofolio digital serta penyimpanan seluruh artefak tugas mata kuliah Rekayasa Perangkat Lunak selama satu semester penuh. 
+Repositori ini disiapkan sebagai wadah portofolio digital serta penyimpanan seluruh artefak dari tugas mata kuliah Rekayasa Perangkat Lunak selama satu semester penuh. 
 
 Melalui mata kuliah ini, target utama saya adalah mempraktikkan cara kerja software engineering yang profesional. Tidak hanya sebatas membuat aplikasi yang berjalan, tetapi juga memastikan sebuah sistem itu bernilai, mudah digunakan, berorientasi kualitas, dan memiliki rekam jejak yang jelas serta pemeliharaan yang teratur.
 
 ## Target Pembelajaran
+repositori ini difungsikan sebagai media penyimpanan utama dalam mengelola artefak tugas serta merekam progres pembelajaran selama mengikuti mata kuliah Rekayasa Perangkat Lunak.
 
-Melalui repository ini, saya ingin mencapai beberapa hal berikut:
-
-1. Mengetahui tahapan dan prinsip dasar dalam Rekayasa Perangkat Lunak.
-2. Memahami aspek People, Product, Process, dan Quality ketika menilai sebuah sistem.
-3. Berlatih menemukan masalah pada aplikasi melalui pengamatan langsung.
-4. Memahami penyebab masalah perangkat lunak dan merumuskan kemungkinan perbaikannya.
-5. Menggunakan GitHub untuk menyimpan serta melacak perubahan dokumen.
-6. Membiasakan diri menulis dokumentasi dengan rapi dan bekerja secara bertanggung jawab.
-7. Memahami batasan penggunaan AI agar tetap menjaga integritas dalam mengerjakan tugas.
+Target utama yang ingin saya capai melalui mata kuliah ini meliputi:
+1. Memahami prinsip, metodologi, dan tahapan fundamental dalam rekayasa perangkat lunak.
+2. Mengasah kemampuan mengevaluasi sistem dari empat kacamata utama: People, Product, Process, dan Quality.
+3. Berlatih mengidentifikasi permasalahan perangkat lunak secara objektif lewat pengamatan empiris di lapangan.
+4. Menganalisis akar penyebab dari gejala *software crisis* serta merumuskan solusi perbaikan yang aplikatif.
+5. Memanfaatkan Git dan GitHub sebagai alat kontrol versi dan dokumentasi proyek secara disiplin.
+6. Membiasakan standar kerja rekayasa yang profesional, transparan, serta dapat dipertanggungjawabkan.
+7. Menerapkan batasan etika penggunaan AI untuk menjaga integritas dan kejujuran akademik.
 
 ## Susunan File Repository
 
