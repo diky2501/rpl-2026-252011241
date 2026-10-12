@@ -30,47 +30,36 @@ Target utama yang ingin saya capai melalui mata kuliah ini meliputi:
 
 ## Susunan File Repository
 
-| Nama file/folder | Isi |
-|---|---|
-| `README.md` | Penjelasan repository dan catatan pengerjaan |
-| `LICENSE` | Ketentuan penggunaan dan pembagian karya |
-| `KOMITMEN_KERJA.md` | Aturan dan tanggung jawab selama mengerjakan tugas |
-| `CONTRIBUTING.md` | Petunjuk apabila ada pihak yang ingin memberikan kontribusi |
-| `AI_POLICY.md` | Aturan pribadi dalam menggunakan AI |
-| `tugas-01/` | Berkas laporan dan dokumentasi pengamatan pertama |
+| File / Folder | Deskripsi Fungsi |
+| :--- | :--- |
+| `README.md` | Profil mahasiswa, tujuan pembelajaran, peta berkas, dan *decision log* |
+| `LICENSE` | Ketentuan lisensi hak cipta dan pembagian karya |
+| `KOMITMEN_KERJA.md` | Standar etika, disiplin, dan aturan kerja profesional |
+| `CONTRIBUTING.md` | Panduan dan alur kerja untuk pihak yang ingin berkontribusi |
+| `AI_POLICY.md` | Kebijakan dan batasan pribadi dalam memanfaatkan instrumen AI |
+| `tugas-01/` | Berkas laporan PDF dan arsip bukti pengamatan bedah sistem |
 
 ## Catatan Tugas
+Pada penugasan pertama, aplikasi MyUT dipilih sebagai objek Review. Sistem ini melayani berbagai kebutuhan akademis mahasiswa, seperti proses registrasi mata kuliah, pemantauan status pembayaran, verifikasi nilai/LKAM, hingga akses layanan informasi akademik.
 
-### Tugas 01 — Pengamatan Aplikasi AXISNET
-
-Untuk tugas pertama, saya menggunakan AXISNET sebagai objek yang akan dipelajari. Aplikasi ini menyediakan layanan bagi pelanggan AXIS, termasuk informasi kuota, pulsa, dan pilihan paket internet.
-
-Saya akan meninjau aplikasi dari sisi penggunanya, fitur yang tersedia, urutan langkah saat menggunakan layanan, serta kualitas pengalaman pengguna. Hasil pengamatan tersebut kemudian digunakan untuk membahas gejala masalah perangkat lunak dan menentukan perbaikan yang paling sesuai.
-
-Dokumen laporan dan screenshot yang mendukung hasil pengamatan ditempatkan dalam folder `tugas-01/`. Isi analisis akan disesuaikan dengan hal-hal yang benar-benar saya temukan ketika menggunakan aplikasi.
+Review dilakukan murni dari sudut pandang pengguna dengan mengamati  bagaimana alur kerja aplikasi berjalan, kejelasan fitur, kelancaran antarmuka, dan kenyamanan penggunaan. Seluruh bukti temuan berupa screenshoot berstempel tanggal beserta analisis gejala software crisis dirangkum secara lengkap di dalam folder `tugas-01/`.
 
 ## Pertimbangan dan Keputusan Teknis
 
 ### 1. Menggunakan GitHub untuk Menyimpan Tugas
 
-Saya menggunakan GitHub agar dokumen perkuliahan dapat dikumpulkan dalam satu tempat. Dengan bantuan Git, saya bisa mencatat perubahan yang dilakukan pada file dan melihat kembali perkembangan tugas dari waktu ke waktu.
+Saya menggunakan Github agar dokumen perkuliahan dapat dikumpulkan dalam satu tempat. Dalam mengelola dokumentasi pada repositori ini, seluruh berkas disusun menggunakan format Markdown (.md) di dalam platform GitHub sebagai pengganti dokumen terformat konvensional seperti PDF atau Word. Langkah ini diambil karena Markdown menyajikan struktur teks yang ringkas, simpel, dan dapat dibaca secara langsung pada antarmuka web. Dan juga memudahkan pemantauan riwayat revisi berkas secara runtut dan transparan melalui kontrol versi Git.
 
-Untuk penulisan dokumentasi, saya menggunakan Markdown. Format ini dipilih karena tidak rumit, dapat diedit melalui teks biasa, dan hasilnya bisa langsung dibaca pada halaman repository. Saya juga mempertimbangkan format Word, tetapi Markdown lebih praktis untuk dokumentasi yang disimpan bersama file lain di GitHub.
-
-### 2. Menentukan Fokus Analisis AXISNET
-
-Dalam mengulas AXISNET, saya mempertimbangkan beberapa bagian, seperti tampilan informasi kuota, proses memilih paket internet, dan informasi yang muncul setelah pengguna melakukan transaksi.
-
-Fokus akhir akan ditentukan setelah saya memeriksa fitur-fitur tersebut secara langsung. Saya akan mengutamakan bagian yang memiliki bukti paling jelas dan menunjukkan dampak terhadap pengguna. Cara ini membantu saya menyusun saran perbaikan berdasarkan kondisi yang ditemukan, bukan hanya berdasarkan dugaan.
+### 2. Menentukan Fokus Analisis MyUT
+Dalam mengulas web MyUT, saya mempertimbangkan beberapa menu, seperti kalender, chat diskusi,perpustakaan dan banyak menu lain yang menjadi satu di MyUT.
+Setelah memeriksa semua, Fokus akhir Saya mengutamakan menu yang memiliki bukti paling jelas yang berdampak terhadap pengguna. Cara ini membantu saya dalam menyusun saran perbaikan web MyUT berdasarkan kondisi yang ditemukan dan bukan berdasarkan dugaan saya pribadi.
 
 ### 3. Menentukan Lisensi
 
-Saya mempertimbangkan MIT License dan GNU GPL untuk menentukan lisensi repository. MIT License memberikan keleluasaan penggunaan ulang dengan persyaratan yang relatif ringkas, sedangkan GNU GPL memiliki ketentuan berbasis *copyleft* bagi distribusi karya turunan yang termasuk dalam cakupannya.
-
-MIT License menjadi pilihan yang saya pertimbangkan karena isi repository berfokus pada dokumentasi pembelajaran dan contoh pekerjaan akademik. Sebelum menetapkannya, saya akan memastikan bahwa lisensi tersebut sesuai dengan jenis file yang dibagikan dan benar-benar digunakan pada file `LICENSE`.
+Adapun untuk kebijakan lisensi repositori seperti MIT License yang ditetapkan sebagai lisensi resmi setelah mempertimbangkan pilihan lain seperti GNU GPL. Lisensi MIT dipilih karena memberikan fleksibilitas dan kebebasan yang lebih luas bagi pihak luar untuk mempelajari ataupun memanfaatkan kembali isi repositori ini tanpa ikatan aturan turunan yang rumit, yang mana sangat pas untuk kebutuhan portofolio akademis.
 
 ## Pernyataan Penggunaan AI
 
-Dalam mengerjakan dokumentasi ini, saya menggunakan AI untuk membantu mengembangkan susunan tulisan, memperjelas kalimat, dan mendapatkan gambaran awal mengenai aspek yang dapat dianalisis pada AXISNET.
+Dalam mengerjakan dokumentasi ini, saya menggunakan AI yaitu gemini untuk membantu mengembangkan susunan tulisan, memperjelas kalimat, dan mendapatkan gambaran awal mengenai aspek yang dapat dianalisis pada MyUT.
 
 Saya tetap perlu memeriksa kembali setiap saran yang diberikan. Pengamatan, bukti screenshot, dan kesimpulan mengenai aplikasi harus berasal dari hasil pemeriksaan saya sendiri. Saya juga akan menjaga kerahasiaan informasi pribadi ketika membuat dokumentasi tugas.
